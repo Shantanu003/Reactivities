@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reactivities.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdd30444386c49d8fdc2aefada6451b664f318b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3b4ecd05ef1914d3ed4847ea8d66527d53fdcf6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reactivities.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reactivities.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
