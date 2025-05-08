@@ -12,7 +12,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
+}); 
 
 var app = builder.Build();
 
@@ -28,4 +28,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+using var scope = app.Services.CreateScope();
+
 app.Run();
+                                                                                                                                                                       
